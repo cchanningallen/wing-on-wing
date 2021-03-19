@@ -1,0 +1,33 @@
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Alegreya';
+    src: url('/fonts/AlegreyaSansSC-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.font-fancy {
+    font-family: 'Alegreya', sans-serif;
+}
+
+@variants hover {
+    .bg-lightbox-light {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .bg-lightbox-dark {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+.h-half {
+    height: 50vh;
+}

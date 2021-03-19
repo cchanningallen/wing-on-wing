@@ -1,21 +1,40 @@
 {
-  "name": "graphcms-with-nextjs-image",
-  "private": true,
-  "license": "MIT",
-  "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "graphql": "15.4.0",
-    "graphql-request": "3.3.0",
-    "next": "10.0.0",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
-  },
-  "devDependencies": {
-    "postcss-preset-env": "6.7.0",
-    "tailwindcss": "1.9.6"
-  }
+    "name": "graphcms-with-nextjs-image",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@n8tb1t/use-scroll-position": "^2.0.3",
+        "@tailwindcss/forms": "^0.2.1",
+        "autoprefixer": "^10.2.4",
+        "classnames": "^2.2.6",
+        "date-fns": "^2.19.0",
+        "graphql": "^15.5.0",
+        "graphql-request": "^3.4.0",
+        "moment": "^2.29.1",
+        "next": "10.0.6",
+        "postcss": "^8.2.6",
+        "react": "17.0.1",
+        "react-dom": "17.0.1",
+        "swr": "^0.4.2",
+        "tailwindcss": "^2.0.3"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.12.16",
+        "@babel/preset-env": "^7.12.16",
+        "babel-jest": "^26.6.3",
+        "eslint": "^7.19.0",
+        "eslint-config-prettier": "^7.2.0",
+        "eslint-plugin-prettier": "^3.3.1",
+        "eslint-plugin-react": "^7.22.0",
+        "husky": "^5.0.9",
+        "jest": "^26.6.3",
+        "postcss-preset-env": "^6.7.0",
+        "prettier": "^2.2.1",
+        "pretty-quick": "^3.1.0"
+    }
 }
